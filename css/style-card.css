@@ -1,0 +1,377 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 1366px;
+    min-height: 1764px;
+    padding: 0px;
+    margin: 0 auto;
+    font-family: Work Sans;
+    font-style: normal;
+    background-color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* header */
+
+.header {
+    display: block;
+    position: relative;
+    min-height: 67px;
+    /* border: 1px red solid; */
+}
+
+.nav__menu {
+    position: absolute;
+    max-width: 300px;
+    margin: 0px;
+    left: 100px;
+    top: 28px;
+}
+
+.nav__menu-list {
+    display: inline-block;
+}
+
+.nav__menu-link {
+    display: block;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #151C22;
+    margin-right: 35px;
+}
+
+.header__logo {
+    display: block;
+    position: absolute;
+    top: 25px;
+    left: 646px;   
+}
+
+.header__icon {
+    position: absolute;
+    margin: 0px;
+    right: 98px;
+    top: 24px;
+}
+
+.header__icon img:first-child {
+    margin-right: 29px;
+}
+
+/* card-product */
+
+.card-product {
+    /* border: 1px solid red; */
+    display: flex;
+    margin-top: 55px;
+}
+
+/* left part */
+
+.card-product__slider {
+    position: relative;
+    width: 695px;
+    padding-left: 40px;    
+}
+
+.card-product__slider-item {
+    display: flex;
+    justify-content: center;
+}
+
+.card-product__row-left {
+    margin-top: 192px;
+    margin-left: 90px;
+}
+
+.card-product__main-photo {
+    display: block;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.card-product__row-rigth {
+    margin-top: 192px;
+    margin-right: 90px;
+}
+
+.card-product__small-photos {
+    display: flex;
+    justify-content: center;
+}
+ 
+.card-product__small-photo {
+    display: block;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.photo__first {
+    margin-left: 20px;
+}
+
+/* right part */
+
+.card-product__aboute {
+    width: 664px;
+    height: 657px;
+    background-color: #F1F2F4;
+    position: relative;
+    padding: 1px;
+    padding-left: 72px;
+    float: right;   
+}
+
+.card-product__title {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    margin-top: 60px;
+    color: #151C22;
+    margin-bottom: 0;
+}
+
+.card-product__text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 27px;
+    margin-bottom: 0;
+    color: #151C22;
+    width: 350px;
+    margin-bottom: 0;
+}
+
+.card-product__char-color {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 42px;
+    color: #151C22;
+    margin-bottom: 0;
+}
+
+.card-product__color-btn {
+    display: flex;
+    justify-content: start;
+    margin-top: 25px;
+    width: 150px;    
+}
+
+.color-btn {
+    margin-right: 30px;
+    width: 16px;
+    height: 16px;
+}
+
+/* .btn-one {
+    background: #B0C3C7;
+}
+
+.btn-two {
+    background: #3B6392;
+}
+
+.btn-three {
+    background: #BFC3C8;
+} */
+
+.card-product__char-size {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 40px;
+    color: #151C22;
+}
+
+.card-product__size-type {
+    display: flex;
+    justify-content: start;
+    margin-top: 18px;
+}
+
+.card-product__size-list {
+    display: block;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #727A82;
+    margin-right: 20px;
+}
+
+.card-product__size-list:hover {
+    color: #151C22;
+} 
+
+.card-product__cost {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 35px;
+}
+
+.card-product__add-btn {
+    width: 199px;
+    height: 62px;
+    background: #151C22;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-top: 29px;
+    border: 1px solid black;
+}
+
+/* catalog */
+.best__page {
+    min-height: 765px;
+}
+
+.best__page-header {
+    min-height: 221px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.best__page-header h2 {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    color: #151C22;
+    height: 1em;
+    margin-top: 120px;
+    margin-left: 98px;
+}
+
+.best__page-link {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #151C22;
+    height: 1em;
+    text-align: center;
+    width: 80px;
+    margin-top: 126px;
+    padding-bottom: 22px;
+    margin-right: 98px;
+    border-bottom: 2px solid #000;
+}
+
+.clothes__name {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #151C22;
+    margin-top: 15px;
+}
+
+.clothes__cost {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: -7px;
+    /* margin-top: px; */
+}
+
+.clothes__catalog {
+    display: flex;
+    justify-content: space-around;
+}
+
+.best__page-clothes {
+    margin-right: 30px;
+}
+
+.best__page-clothes:first-child {
+    margin-left: 95px;
+}
+
+.best__page-clothes:last-child {
+    margin-right: 95px;
+}
+
+
+
+
+/* footer */
+ 
+.footer {
+    min-height: 222px;
+    background-color: #151C22;
+    margin-bottom: 5px;
+    color: #FFFFFF;
+}
+
+.footer__logo {
+    margin-top: 48px;
+    margin-left: 646px;
+    /* margin-right: auto; */
+}
+
+.footer__list-item {
+    display: inline-block;
+}
+
+.footer_list {
+    margin-left: 445px;
+    padding: 0;
+    margin-top: 25px;
+}
+
+.footer__list-link {
+    padding: 0;
+    display: block;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    margin-right: 34px;
+    color: #ffffff;
+}
+
+.footer__img {
+    display: flex;
+    justify-content: center;
+    margin-top: 34px;
+}
+
+.footer__img-link {
+    display: block;
+}
+
+.footer__img-fb {
+    margin-right: 34px;
+}
+
+.footer__img-inst {
+    margin-right: 30px;
+}
+
+.footer__img-pp {
+    margin-right: 29px;
+}
